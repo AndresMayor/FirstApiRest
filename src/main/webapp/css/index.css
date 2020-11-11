@@ -1,0 +1,57 @@
+#registroContainer{
+
+    background: #eeeeff;
+    display: flex;   /*Flexbox no permite organizar */
+    flex-direction: column; /* eje principal vertical */
+    width: 50%;
+    margin: 0 auto;
+    align-items: center; /*eje cruzado*/
+    justify-content: center;  /*eje principal que es el verical*/
+    padding: 40px;  /* El paddin nos permite crear como una margen para que no quede tan pegado a los bordes de la pagina con respecto al interior del div*/
+    border-radius: 20px;
+
+
+}
+/* nos ayuda a editar a todos los inputs del contenedor*/
+#registroContainer input{
+
+    width: 80%;
+
+}
+
+/*Otra forma de hacer el ancho  de los elementos es con los elemtos pertenezcan a una sola clase*/
+.inputdata{
+    width: 80%;
+}
+
+/* con el asterisco nos permite definir propidades para todos los elementos*/
+#registroContainer *{
+
+    margin: 5px 0px 5px 0px;
+
+}
+
+#logo{
+    width: 180px;
+}
+#registroTitle{
+    color: blueviolet;
+}
+
+
+
+.profesorComponet{
+   
+    background: lightsteelblue;
+    padding: 20px;
+    width: 400px;
+    position: relative;
+    margin: 10px  auto;
+
+}
+.delBtn{
+    position:absolute;
+    right:0;
+    top: 0;
+
+}
